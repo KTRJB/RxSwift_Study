@@ -1,4 +1,4 @@
-### Observables 실습 - 그루트
+### Observables 실습 - 그루트, 주디, 예톤, 수꿍
 ```swift
 import UIKit
 import RxSwift
