@@ -1,4 +1,3 @@
-```swift
 import UIKit
 import RxSwift
 
@@ -292,4 +291,3 @@ class ViewController: UIViewController {
         // scan()
     }
 }
-```
