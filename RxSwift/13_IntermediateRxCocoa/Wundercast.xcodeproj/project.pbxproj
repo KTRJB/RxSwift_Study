@@ -16,7 +16,6 @@
 		CB4D69461DE9A7D100DC0488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4D69441DE9A7D100DC0488 /* Main.storyboard */; };
 		CB4D69481DE9A7D100DC0488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB4D69471DE9A7D100DC0488 /* Assets.xcassets */; };
 		CB4D694B1DE9A7D100DC0488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB4D69491DE9A7D100DC0488 /* LaunchScreen.storyboard */; };
-		CB4D69611DE9A7F100DC0488 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = CB4D69601DE9A7F100DC0488 /* Podfile */; };
 		CB4D69661DE9AD3300DC0488 /* ApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4D69651DE9AD3300DC0488 /* ApiController.swift */; };
 		CB4D69691DE9AD6200DC0488 /* weather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB4D69681DE9AD6200DC0488 /* weather.ttf */; };
 		CB4D696B1DE9AD7C00DC0488 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CB4D696A1DE9AD7C00DC0488 /* LICENSE */; };
@@ -45,7 +44,6 @@
 		CB4D694A1DE9A7D100DC0488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB4D694C1DE9A7D100DC0488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB4D69511DE9A7D100DC0488 /* WundercastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WundercastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4D69601DE9A7F100DC0488 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB4D69651DE9AD3300DC0488 /* ApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiController.swift; sourceTree = "<group>"; };
 		CB4D69681DE9AD6200DC0488 /* weather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = weather.ttf; sourceTree = "<group>"; };
 		CB4D696A1DE9AD7C00DC0488 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 		CB4D69341DE9A7D100DC0488 = {
 			isa = PBXGroup;
 			children = (
-				CB4D69601DE9A7F100DC0488 /* Podfile */,
 				CB4D693F1DE9A7D100DC0488 /* Wundercast */,
 				CB4D693E1DE9A7D100DC0488 /* Products */,
 			);
@@ -247,7 +244,6 @@
 				CB4D696B1DE9AD7C00DC0488 /* LICENSE in Resources */,
 				CB4D694B1DE9A7D100DC0488 /* LaunchScreen.storyboard in Resources */,
 				CB4D69481DE9A7D100DC0488 /* Assets.xcassets in Resources */,
-				CB4D69611DE9A7F100DC0488 /* Podfile in Resources */,
 				CB4D69461DE9A7D100DC0488 /* Main.storyboard in Resources */,
 				CB4D69691DE9AD6200DC0488 /* weather.ttf in Resources */,
 			);
