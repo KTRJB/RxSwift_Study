@@ -146,5 +146,6 @@ Observable<Int>.create { observer in
 ---
 
 **참고**
-[RxSwift: Reactive Programming with Swift, Chapter 15: Intro to Schedulers](https://www.kodeco.com/books/rxswift-reactive-programming-with-swift/v4.0/chapters/15-intro-to-schedulers)
-[ReactiveX-Scheduler](https://reactivex.io/documentation/scheduler.html)
+[RxSwift: Reactive Programming with Swift, Chapter 15: Intro to Schedulers](https://www.kodeco.com/books/rxswift-reactive-programming-with-swift/v4.0/chapters/15-intro-to-schedulers)<br>
+[ReactiveX-Scheduler](https://reactivex.io/documentation/scheduler.html)<br>
+[김종권의 iOS 앱 개발 알아가기 - 12. Scheduler](https://ios-development.tistory.com/133)
