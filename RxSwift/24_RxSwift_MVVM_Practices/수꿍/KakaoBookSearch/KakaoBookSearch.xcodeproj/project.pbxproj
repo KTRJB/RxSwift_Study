@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2085EADA29C547BD007D1837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085EAD929C547BD007D1837 /* AppDelegate.swift */; };
+		2085EADC29C547BD007D1837 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085EADB29C547BD007D1837 /* SceneDelegate.swift */; };
+		2085EADE29C547BD007D1837 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085EADD29C547BD007D1837 /* MainViewController.swift */; };
+		2085EAE329C547BE007D1837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2085EAE229C547BE007D1837 /* Assets.xcassets */; };
+		2085EAE629C547BE007D1837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2085EAE429C547BE007D1837 /* LaunchScreen.storyboard */; };
+		2085EAEF29C54833007D1837 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 2085EAEE29C54833007D1837 /* RxCocoa */; };
+		2085EAF129C54833007D1837 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 2085EAF029C54833007D1837 /* RxRelay */; };
+		2085EAF329C54833007D1837 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2085EAF229C54833007D1837 /* RxSwift */; };
+		2085EAF629C54843007D1837 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 2085EAF529C54843007D1837 /* SwiftyJSON */; };
+		2085EAF829C54918007D1837 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085EAF729C54918007D1837 /* APIController.swift */; };
+		2085EAFA29C550B8007D1837 /* URLSession+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085EAF929C550B8007D1837 /* URLSession+Extension.swift */; };
+		2085EAFF29C5872A007D1837 /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2085EAFE29C5872A007D1837 /* BookTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2085EAD629C547BD007D1837 /* KakaoBookSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KakaoBookSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2085EAD929C547BD007D1837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2085EADB29C547BD007D1837 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2085EADD29C547BD007D1837 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2085EAE229C547BE007D1837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2085EAE529C547BE007D1837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2085EAE729C547BE007D1837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2085EAF729C54918007D1837 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		2085EAF929C550B8007D1837 /* URLSession+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+Extension.swift"; sourceTree = "<group>"; };
+		2085EAFE29C5872A007D1837 /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2085EAD329C547BD007D1837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2085EAF329C54833007D1837 /* RxSwift in Frameworks */,
+				2085EAF129C54833007D1837 /* RxRelay in Frameworks */,
+				2085EAF629C54843007D1837 /* SwiftyJSON in Frameworks */,
+				2085EAEF29C54833007D1837 /* RxCocoa in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2085EACD29C547BD007D1837 = {
+			isa = PBXGroup;
+			children = (
+				2085EAD829C547BD007D1837 /* KakaoBookSearch */,
+				2085EAD729C547BD007D1837 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2085EAD729C547BD007D1837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2085EAD629C547BD007D1837 /* KakaoBookSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2085EAD829C547BD007D1837 /* KakaoBookSearch */ = {
+			isa = PBXGroup;
+			children = (
+				2085EAF729C54918007D1837 /* APIController.swift */,
+				2085EADD29C547BD007D1837 /* MainViewController.swift */,
+				2085EAFE29C5872A007D1837 /* BookTableViewCell.swift */,
+				2085EAFD29C553BB007D1837 /* Extension */,
+				2085EB0129C5A0F4007D1837 /* Resource */,
+			);
+			path = KakaoBookSearch;
+			sourceTree = "<group>";
+		};
+		2085EAFD29C553BB007D1837 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2085EAF929C550B8007D1837 /* URLSession+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2085EB0129C5A0F4007D1837 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2085EAD929C547BD007D1837 /* AppDelegate.swift */,
+				2085EADB29C547BD007D1837 /* SceneDelegate.swift */,
+				2085EAE229C547BE007D1837 /* Assets.xcassets */,
+				2085EAE429C547BE007D1837 /* LaunchScreen.storyboard */,
+				2085EAE729C547BE007D1837 /* Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2085EAD529C547BD007D1837 /* KakaoBookSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2085EAEA29C547BE007D1837 /* Build configuration list for PBXNativeTarget "KakaoBookSearch" */;
+			buildPhases = (
+				2085EAD229C547BD007D1837 /* Sources */,
+				2085EAD329C547BD007D1837 /* Frameworks */,
+				2085EAD429C547BD007D1837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KakaoBookSearch;
+			packageProductDependencies = (
+				2085EAEE29C54833007D1837 /* RxCocoa */,
+				2085EAF029C54833007D1837 /* RxRelay */,
+				2085EAF229C54833007D1837 /* RxSwift */,
+				2085EAF529C54843007D1837 /* SwiftyJSON */,
+			);
+			productName = KakaoBookSearch;
+			productReference = 2085EAD629C547BD007D1837 /* KakaoBookSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2085EACE29C547BD007D1837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2085EAD529C547BD007D1837 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2085EAD129C547BD007D1837 /* Build configuration list for PBXProject "KakaoBookSearch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2085EACD29C547BD007D1837;
+			packageReferences = (
+				2085EAED29C54833007D1837 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				2085EAF429C54843007D1837 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
+			productRefGroup = 2085EAD729C547BD007D1837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2085EAD529C547BD007D1837 /* KakaoBookSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2085EAD429C547BD007D1837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2085EAE629C547BE007D1837 /* LaunchScreen.storyboard in Resources */,
+				2085EAE329C547BE007D1837 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2085EAD229C547BD007D1837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2085EAFF29C5872A007D1837 /* BookTableViewCell.swift in Sources */,
+				2085EAF829C54918007D1837 /* APIController.swift in Sources */,
+				2085EADE29C547BD007D1837 /* MainViewController.swift in Sources */,
+				2085EADA29C547BD007D1837 /* AppDelegate.swift in Sources */,
+				2085EADC29C547BD007D1837 /* SceneDelegate.swift in Sources */,
+				2085EAFA29C550B8007D1837 /* URLSession+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2085EAE429C547BE007D1837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2085EAE529C547BE007D1837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2085EAE829C547BE007D1837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2085EAE929C547BE007D1837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2085EAEB29C547BE007D1837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KakaoBookSearch/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.minsu.KakaoBookSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2085EAEC29C547BE007D1837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KakaoBookSearch/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.minsu.KakaoBookSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2085EAD129C547BD007D1837 /* Build configuration list for PBXProject "KakaoBookSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2085EAE829C547BE007D1837 /* Debug */,
+				2085EAE929C547BE007D1837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2085EAEA29C547BE007D1837 /* Build configuration list for PBXNativeTarget "KakaoBookSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2085EAEB29C547BE007D1837 /* Debug */,
+				2085EAEC29C547BE007D1837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2085EAED29C54833007D1837 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		2085EAF429C54843007D1837 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2085EAEE29C54833007D1837 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2085EAED29C54833007D1837 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		2085EAF029C54833007D1837 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2085EAED29C54833007D1837 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		2085EAF229C54833007D1837 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2085EAED29C54833007D1837 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		2085EAF529C54843007D1837 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2085EAF429C54843007D1837 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2085EACE29C547BD007D1837 /* Project object */;
+}
